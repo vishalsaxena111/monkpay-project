@@ -1,0 +1,6 @@
+com.javaMonk.razorpay.common_lib.util.SharedSecurityAutoConfiguration
+com.javaMonk.razorpay.common_lib.config.SharedKafkaAutoConfiguration
+com.javaMonk.razorpay.common_lib.web.SharedWebFilterAutoConfiguration
+com.javaMonk.razorpay.common_lib.idempotency.SharedResilienceAutoConfiguration
+com.javaMonk.razorpay.common_lib.audit.SharedAuditAutoConfiguration
+com.javaMonk.razorpay.common_lib.exception.SharedExceptionAutoConfiguration
