@@ -256,7 +256,7 @@ spring:
 `config-service` reads from:
 
 ```text
-https://github.com/Anuj-Kumar-Sharma/distributed-razrorpay-config
+https://github.com/vishalsaxena111/distributed-monkpay-config
 ```
 
 Configure Git credentials through environment variables instead of hard-coding secrets:

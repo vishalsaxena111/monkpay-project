@@ -4,7 +4,7 @@ spring:
 
   cloud:
     config.server.git:
-      uri: https://github.com/Anuj-Kumar-Sharma/distributed-razrorpay-config
+      uri: https://github.com/vishalsaxena111/distributed-monkpay-config
       username: ${CONFIG_GIT_USERNAME:}
       password: ${CONFIG_GIT_PASSWORD:}
       default-label: master
