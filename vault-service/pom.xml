@@ -8,7 +8,7 @@
 		<version>4.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javaMonk.razorpay</groupId>
+	<groupId>com.javaMonk.monkpay</groupId>
 	<artifactId>vault-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
@@ -32,7 +32,7 @@
 	</properties>
 	<dependencies>
         <dependency>
-            <groupId>com.javaMonk.razorpay</groupId>
+            <groupId>com.javaMonk.monkpay</groupId>
             <artifactId>common-lib</artifactId>
             <version>1.0.0</version>
         </dependency>

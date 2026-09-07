@@ -1,0 +1,23 @@
+package com.javaMonk.monkpay.common_lib.cache;
+
+
+import com.javaMonk.monkpay.common_lib.enums.Environment;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+public record ApiKeyCacheEntry(
+        String keyId,
+        String keySecretHash,
+        String previousKeySecretHash,
+        LocalDateTime gracePeriodExpiresAt,
+        UUID merchantId,
+        Environment environment,
+        boolean enabled
+) {
+
+    public boolean isInGracePeriod() {
+        return gracePeriodExpiresAt != null && LocalDateTime.now().isBefore(gracePeriodExpiresAt);
+    }
+
+}

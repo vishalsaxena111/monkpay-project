@@ -1,6 +1,6 @@
-# Razorpay Clone - Distributed Payment System
+# monkpay Clone - Distributed Payment System
 
-A Spring Boot microservices project that models the core flow of a payment gateway similar to Razorpay. The system is split into independently deployable services for merchant onboarding, API key authentication, order creation, payment processing, card tokenization, settlement, webhook delivery, service discovery, centralized configuration, and observability.
+A Spring Boot microservices project that models the core flow of a payment gateway similar to monkpay. The system is split into independently deployable services for merchant onboarding, API key authentication, order creation, payment processing, card tokenization, settlement, webhook delivery, service discovery, centralized configuration, and observability.
 
 This repository is intended as a learning and portfolio project for distributed backend design. It demonstrates service-to-service communication, shared library packaging, API gateway authentication, idempotency, rate limiting, event-driven processing, and operational monitoring.
 
@@ -154,7 +154,7 @@ Create or update webhook request:
 
 ```json
 {
-  "targetUrl": "https://merchant.example.com/webhooks/razorpay",
+  "targetUrl": "https://merchant.example.com/webhooks/monkpay",
   "eventTypes": "PAYMENT_STATUS_CHANGED,REFUND_CREATED"
 }
 ```

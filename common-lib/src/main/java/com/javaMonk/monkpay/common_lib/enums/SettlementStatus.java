@@ -1,0 +1,8 @@
+package com.javaMonk.monkpay.common_lib.enums;
+
+public enum SettlementStatus {
+    INITIATED,
+    TRANSFER_PENDING,
+    PROCESSED,
+    FAILED
+}
